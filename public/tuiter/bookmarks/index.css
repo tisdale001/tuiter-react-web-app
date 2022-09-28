@@ -1,0 +1,126 @@
+.wd-screen-bg {
+    background-color: black;
+}
+.wd-bg-color-dark-gray {
+    background-color: #43464b;
+}
+.wd-border-color-dark-gray {
+    border-color: rgb(47, 51, 54);
+}
+.wd-item-color-lightgray {
+    color: rgb(47, 51, 54);
+}
+.wd-item-color-white {
+    color: white;
+}
+.wd-title-format_bkmarks {
+    font-size: 20px;
+}
+.wd-handle-format {
+    font-size: 13px;
+}
+.wd-title-left-margin {
+    margin-left: 4px;
+}
+.wd-title-top-margin {
+    margin-top: 0px;
+}
+.wd-bottom-border {
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: rgb(47, 51, 54);
+    padding: 12px;
+}
+.wd-padding_12px {
+    padding: 12px;
+}
+.wd-avatar-format {
+    margin-left: 4px;
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+.wd-float-left {
+    float: left;
+}
+.wd-margin-left-12px {
+    margin-left: 12px;
+}
+.wd-avatar-col {
+    width: auto;
+}
+.wd-post-col {
+    max-width: 506px;
+}
+.wd-font-size-15px {
+    font-size: 15px;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-image-margin {
+    margin-left: auto;
+    margin-right: 16px;
+    float: right;
+}
+.wd-dots-image-format {
+    width: 12px;
+}
+.wd-margin-right-4px {
+    margin-right: 4px;
+}
+.wd-left-margin-avatar-size {
+    margin-left: 76px;
+}
+.wd-large-image-format {
+    width: 504px;
+    height: 264px;
+    float:left;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-margin-top-12px {
+    margin-top: 12px;
+}
+.wd-clear-and-display {
+    display: flex;
+    clear: both;
+}
+.wd-post-title-format {
+    font-weight: bold;
+}
+.wd-border-thin {
+    border-width: 1px;
+    border-style: solid;
+}
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.wd-max-width-of-image {
+    max-width: 480px;
+}
+.wd-hyperlink-col {
+    width: 20%;
+    float: left;
+}
+.wd-hl-image-format {
+    float: left;
+    width: 15px;
+    height: 15px;
+
+}
+.wd-numbers-format {
+    float: left;
+    font-size: 12px;
+}
+.wd-item-color-red {
+    color: red;
+}
+.wd-greyscale-image {
+    filter: glow(100%);
+    filter: brightness(200%);
+    filter: grayscale(100%);
+}
