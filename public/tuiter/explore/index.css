@@ -1,3 +1,5 @@
+body { font-family: Arial; }
+
 .wd-rounded-corners-all-around {
     border-radius: 50px; }
 
@@ -6,7 +8,7 @@
 }
 
 .wd-bg-color-dark-gray {
-    background-color: #43464b;
+    background-color: rgb(47, 51, 54);
 }
 
 .wd-border-color-dark-gray {
@@ -49,6 +51,16 @@
     float: right;
     margin-left: auto;
     margin-right: 12px;
+}
+.wd-gear-icon-size {
+    width: 15px;
+    height: 15px;
+}
+.wd-gear-icon-format {
+    text-decoration: none;
+}
+.wd-font-style-unset {
+    font-style: unset;
 }
 
 .wd-hyperlink-col {
@@ -110,5 +122,17 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.wd-input-icons {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.wd-icon {
+    width: 15px;
+}
+input {
+    text-indent: 24px;
 }
 

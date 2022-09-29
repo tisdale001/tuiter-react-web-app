@@ -1,3 +1,5 @@
+body { font-family: Arial; }
+
 .wd-screen-bg {
     background-color: black;
 }
@@ -8,7 +10,7 @@
     border-color: rgb(47, 51, 54);
 }
 .wd-item-color-lightgray {
-    color: rgb(47, 51, 54);
+    color: rgb(149, 149, 149);
 }
 .wd-item-color-white {
     color: white;
@@ -64,8 +66,8 @@
     margin-right: 16px;
     float: right;
 }
-.wd-dots-image-format {
-    width: 12px;
+.wd-ellipsis-icon-format {
+    width: 15px;
 }
 .wd-margin-right-4px {
     margin-right: 4px;
@@ -106,7 +108,7 @@
     width: 20%;
     float: left;
 }
-.wd-hl-image-format {
+.wd-hl-icon-format {
     float: left;
     width: 15px;
     height: 15px;
@@ -119,8 +121,6 @@
 .wd-item-color-red {
     color: red;
 }
-.wd-greyscale-image {
-    filter: glow(100%);
-    filter: brightness(200%);
-    filter: grayscale(100%);
+.wd-icon-color-light-gray {
+    color: rgb(149, 149, 149);
 }
