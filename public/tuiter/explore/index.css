@@ -1,138 +1,25 @@
-body { font-family: Arial; }
-
 .wd-rounded-corners-all-around {
-    border-radius: 50px; }
-
-.wd-screen-bg {
-    background-color: black;
+    border-radius: 50px;
 }
-
-.wd-bg-color-dark-gray {
-    background-color: rgb(47, 51, 54);
-}
-
-.wd-border-color-dark-gray {
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-left-margin {
-    margin-left: 16px;
-}
-
-.wd-right-margin {
-    margin-right: 12px;
-}
-
-.wd-link-color-blue {
-    color: rgb(29, 161, 242);
-}
-
-.wd-search-bar-col {
-    float: left;
-    width: 90%;
-}
-
-.wd-gear-col {
-    float: right;
-    width: 10%;
-}
-
-.wd-grid-row {
-    display: flex;
-    clear: both;
-    padding: 16px;
-}
-
-.wd-search-bar-input {
-    width: 100%;
-}
-
-.wd-gear-align-right {
-    float: right;
-    margin-left: auto;
-    margin-right: 12px;
-}
-.wd-gear-icon-size {
-    width: 15px;
-    height: 15px;
-}
-.wd-gear-icon-format {
-    text-decoration: none;
-}
-.wd-font-style-unset {
-    font-style: unset;
-}
-
-.wd-hyperlink-col {
-    width: 16.66%;
-    float: left;
-}
-
-.wd-hl-highlighted {
-    color: rgb(29, 161, 242);
-    font-size: 15px;
-    border-bottom-color: rgb(29, 161, 242);
-    border-bottom: 2px solid;
-    text-align: center;
-    padding: 16px;
-
-}
-.wd-hl-normal {
-    color: rgb(110, 118, 125);
-    font-size: 15px;
-    text-align: center;
-    padding: 16px;
-}
-.wd-topic-format {
-    font-size: 15px;
-}
-.wd-title-format {
-    font-size: 18px;
-}
-.wd-number-of-tuits-format {
-    font-size: 15px;
-}
-.wd-item-color-dark-gray {
-    color: rgb(110, 118, 125);
-}
-.wd-item-color-lightgray {
-    color: lightgray;
-}
-.wd-post-row {
-    padding-left: 16px;
-    padding-top: 16px;
-    display: flex;
-    clear: both;
-}
-.wd-post-body {
-    float: left;
-    width: 75%;
-}
-.wd-post-image {
-    float:right;
-    width: 25%;
-}
-.wd-image-margin {
-    margin-left: auto;
-    margin-right: 16px;
-    float: right;
-}
-.wd-square-image-format {
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
+.wd-follow-icon-format {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     object-fit: cover;
 }
-
-.wd-input-icons {
+.wd-font-weight-bold {
+    font-weight: bold;
+}
+.wd-placeholder-format {
+    text-indent: 50px;
+}
+.wd-pic-title-format {
     position: absolute;
-    margin-top: 20px;
-    margin-left: 24px;
+    bottom: 8px;
+    left: 8px;
+    font-size: 25px;
 }
-.wd-icon {
-    width: 15px;
+.wd-card-image-format {
+    width: 100px;
+    object-fit: contain;
 }
-input {
-    text-indent: 24px;
-}
-
