@@ -1,4 +1,5 @@
 body { font-family: Arial; }
+
 .wd-rounded-corners-all-around {
     border-radius: 50px;
 }
@@ -20,6 +21,41 @@ body { font-family: Arial; }
 .wd-small-icon-size {
     width: 15px;
 }
+.wd-xs-icon-size {
+    width: 10px;
+}
 .wd-xs-font-size {
     font-size: 11px;
+}
+.wd-text-indent {
+    text-indent: 40px;
+}
+.wd-bg-dark-gray {
+    background: rgb(40, 40, 40);
+}
+.wd-border-dark-gray {
+    border-color: rgb(47, 47, 47);
+}
+.wd-search-icon-position {
+    left: 35px;
+    top: 6px;
+}
+.wd-underline-offset {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 1.2em;
+    text-decoration-color: rgb(2, 117, 216);
+}
+.wd-saturn-icon-size {
+    width: 35px;
+    --bs-bg-opacity: 0%;
+}
+.wd-position-overlay {
+    bottom: 0px;
+}
+.wd-post-image-format {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 10px;
 }
