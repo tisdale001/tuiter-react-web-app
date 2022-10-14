@@ -1,0 +1,55 @@
+body {font-family: "Segoe UI"}
+
+.wd-post-image-format {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+.wd-background-white {
+    background: white;
+}
+.wd-background-clear {
+    background: 0%;
+}
+a:link {
+    text-decoration: none;
+}
+.wd-avatar-format {
+    width: 50px;
+    height: 50px;
+}
+.wd-float-left {
+    float: left;
+}
+.wd-post-body-margin {
+    margin-left: 75px;
+}
+.wd-border-format {;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 37, 37);
+}
+
+.wd-post-image-rounded-top {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 37, 37);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.wd-post-image-rounded-all-corners {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 37, 37);
+    border-radius: 15px;
+}
+.wd-post-article-format {
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-color: rgb(37, 37, 37);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}

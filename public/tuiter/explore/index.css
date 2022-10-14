@@ -1,25 +1,29 @@
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-}
+body {font-family: "Segoe UI"}
+
 .wd-follow-icon-format {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
+    max-width: 40px;
+    max-height: 40px;
 }
-.wd-font-weight-bold {
-    font-weight: bold;
+.wd-follow-icon-circle {
+    border-radius: 50%;
+}
+.wd-post-image-format {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+.wd-background-white {
+    background: white;
+}
+.wd-background-clear {
+    background: 0%;
+}
+.wd-overlay-format {
+    font-size: 45px;
+    color: rgb(37, 37, 37);
 }
 .wd-placeholder-format {
     text-indent: 50px;
-}
-.wd-pic-title-format {
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-    font-size: 25px;
-}
-.wd-card-image-format {
-    width: 100px;
-    object-fit: contain;
 }
