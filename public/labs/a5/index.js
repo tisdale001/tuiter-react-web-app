@@ -50,6 +50,7 @@ console.log(false3);
 // console.log(sortaTrue);
 // console.log(notTrue);
 
+
 console.log('If else');
 if(true1) {
     console.log(true);

@@ -34,7 +34,7 @@ const ExploreComponent = () => {
            </ul>
            <!-- image with overlaid text -->
             <div class="position-relative">
-                 <img src="../../images/starship.webp" class="w-100"/>
+                 <img src="../../images2/starship.webp" class="w-100"/>
                  <div class="position-absolute wd-overlay-format fw-bold bottom-0 mb-2 ms-2">SpaceX's Starship</div>
             </div>
             <div class="mt-2">
