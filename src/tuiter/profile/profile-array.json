@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "1",
+    "firstName": "Albert",
+    "lastName": "Einstein",
+    "handle": "@aeinstein",
+    "profilePicture": "Albert-Einstein.jpg",
+    "bannerPicture": "Einstein-at-the-bat.jpg",
+    "bio": "German-born physicist who developed the special and general theories of relativity and won the Nobel Prize for Physics in 1921 for his explanation of the photoelectric effect.",
+    "website": "youtube.com/webdevtv",
+    "location": "Princeton, NJ",
+    "dateOfBirth": "1879-03-14",
+    "dateJoined": "1955-04-18",
+    "followingCount": 340,
+    "followersCount": 223,
+    "numTuits": 6114
+  }
+]

@@ -2,6 +2,7 @@ import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/todo-list";
+import MyExperiments from "../../my-experiments/myExperiments";
 
 
 function Assignment6() {
@@ -12,6 +13,7 @@ function Assignment6() {
             <ConditionalOutput/>
             <Styles/>
             <Classes/>
+            <MyExperiments/>
         </div>
     );
 }

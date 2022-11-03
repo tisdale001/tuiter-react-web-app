@@ -1,0 +1,41 @@
+
+.wd-border-light-gray {
+    border: rgb(27, 27, 27);
+}
+.wd-profile-avatar-format {
+    width: 150px;
+    height: 150px;
+}
+.wd-profile-avatar-margins {
+    bottom: -75px;
+    left: 15px;
+}
+.wd-leave-space-below-avatar {
+    margin-top: 85px;
+}
+.wd-map-vector-icon-format {
+    width: 15px;
+    height: 15px;
+
+}
+.wd-cake-icon-format {
+    width: 20px;
+    height: 20px;
+}
+.wd-calendar-icon-format {
+    width: 18px;
+    height: 18px;
+}
+.wd-float-right {
+    float: right;
+}
+
+.wd-textarea-label-format {
+    top: 10px;
+    left: 17px;
+}
+.wd-website-input-height {
+    height: 50px;
+}
+
+
