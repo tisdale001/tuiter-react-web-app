@@ -9,6 +9,7 @@ const EditProfile = () => {
     let profile = profArray.find((x) => x._id === "1");
     const dispatch = useDispatch();
     const [name, setName] = useState({name:`${profile.firstName} ${profile.lastName}`});
+    const [handle, setHandle] = useState({handle: `${profile.handle}`});
     const [bio, setBio] = useState({bio: `${profile.bio}`});
     const [location, setLocation] = useState({location: `${profile.location}`});
     const [birthdate, setBirthdate] = useState({birthdate: `${profile.dateOfBirth}`});
@@ -19,6 +20,13 @@ const EditProfile = () => {
             name: nameValue
         };
         setName(newName);
+    }
+    const handleChangeHandler = (event) => {
+        const handleValue = event.target.value;
+        const newHandle = {
+            handle: handleValue
+        };
+        setHandle(newHandle);
     }
     const bioChangeHandler = (event) => {
         const bioValue = event.target.value;
@@ -39,6 +47,7 @@ const EditProfile = () => {
         const newBD = {
             birthdate: bdValue
         };
+        console.log(newBD);
         setBirthdate(newBD);
     }
     const websiteChangeHandler = (event) => {
@@ -64,6 +73,7 @@ const EditProfile = () => {
                 lName = lName + " " + nameArr[i];
             }
         }
+        let newHandle = handle.handle.trim();
         let newBio = bio.bio.trim();
         let newLocation = location.location.trim();
         let newWebsite = "";
@@ -75,7 +85,7 @@ const EditProfile = () => {
         }
         let newBirthdate = birthdate.birthdate;
 
-        const finalOutput = {_id: profile._id, firstName: fName, lastName: lName, bio: newBio, location: newLocation,
+        const finalOutput = {_id: profile._id, firstName: fName, lastName: lName, handle: newHandle, bio: newBio, location: newLocation,
                             website: newWebsite, dateOfBirth: newBirthdate};
         dispatch(updateProfile(finalOutput));
     }
@@ -102,30 +112,31 @@ const EditProfile = () => {
             </div>
             {/*textareas*/}
             <div className="wd-leave-space-below-avatar">
-                <div className="position-relative p-2">
+                <div className="form-floating position-relative p-2">
+                    <input type="text" id="name-textarea"  className="form-control w-100 ps-2" onChange={nameChangeHandler} value={`${name.name}`}/>
                     <label className="text-secondary" htmlFor="name-textarea">Name</label>
-                    <textarea id="name-textarea" rows={1} className="w-100 ps-2" onChange={nameChangeHandler} value={`${name.name}`}/>
-
                 </div>
-                <div className="position-relative p-2">
+                <div className="form-floating position-relative p-2">
+                    <input type="text" id="handle-textarea"  className="form-control w-100 ps-2" onChange={handleChangeHandler} value={`${handle.handle}`}/>
+                    <label className="text-secondary" htmlFor="handle-textarea">Handle</label>
+                </div>
+                <div className="form-floating position-relative p-2">
+                    <textarea type="text" id="bio-textarea"  className="form-control w-100 h-100 ps-2 " onChange={bioChangeHandler} value={`${bio.bio}`}/>
                     <label className="text-secondary" htmlFor="bio-textarea">Bio</label>
-                    <textarea id="bio-textarea" rows={3} className="w-100 ps-2" onChange={bioChangeHandler} value={`${bio.bio}`}/>
-
                 </div>
-                <div className="position-relative p-2">
+                <div className="form-floating position-relative p-2">
+                    <input  type="text" id="location-textarea" className="form-control w-100 ps-2" onChange={locationChangeHandler}
+                              value={`${location.location}`}/>
                     <label className="text-secondary"
                            htmlFor="location-textarea">Location</label>
-                    <textarea id="location-textarea" rows={1} className="w-100 ps-2" onChange={locationChangeHandler}
-                              value={`${location.location}`}/>
-
                 </div>
-                <div className="p-2">
-                    <input id="website-textarea" type="url" className="w-100 ps-2 wd-website-input-height" placeholder="Website"
+                <div className="p-2 ">
+                    <input id="website-textarea" type="url" className="w-100 ps-2 wd-website-input-height form-control" placeholder="Website"
                            onChange={websiteChangeHandler} value={`${website.website}`}></input>
                 </div>
                 <div className="p-2 position-relative">
                     <label htmlFor="birth-date-textarea">Birth date &nbsp;&#x2022;&nbsp;<span className="text-primary">Edit</span></label>
-                    <input id="birth-date-textarea" type="date" className="w-100 ps-2" value={`${birthdate.birthdate}`} onChange={birthdateChangeHandler}></input>
+                    <input id="birth-date-textarea" type="date" className="w-100 h-100 ps-2 form-control" value={`${birthdate.birthdate}`} onChange={birthdateChangeHandler}></input>
                 </div>
 
             </div>

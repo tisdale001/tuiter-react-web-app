@@ -9,6 +9,7 @@ const profSlice = createSlice({
             const profile = state.find((profile) => profile._id === action.payload._id);
             profile.firstName = action.payload.firstName;
             profile.lastName = action.payload.lastName;
+            profile.handle = action.payload.handle;
             profile.bio = action.payload.bio;
             profile.location = action.payload.location;
             profile.website = action.payload.website;

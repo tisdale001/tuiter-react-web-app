@@ -37,5 +37,14 @@
 .wd-website-input-height {
     height: 50px;
 }
-
+.wd-bio-input-height {
+    line-height: 140%;
+    padding: 10px 10px;
+}
+.wd-textarea-format {
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+}
 

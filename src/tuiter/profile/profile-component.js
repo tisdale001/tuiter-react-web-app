@@ -10,9 +10,15 @@ const ProfileComponent = () => {
         return profile.numTuits.toLocaleString("en-US");
     };
     const formatBirthDate = () => {
-        const newDate = new Date(profile.dateOfBirth);
-        const month = newDate.toLocaleString('default', { month: 'long' });
-        return "Born " + month + " " + newDate.getUTCDate() + ", " + newDate.getFullYear();
+        const dateArr = profile.dateOfBirth.split("-")
+        const year = dateArr[0];
+        const month = dateArr[1];
+        const day = dateArr[2];
+        const newDate = new Date(Date.UTC(parseInt(year), parseInt(month) - 1, parseInt(day)));
+        const timeDiff = newDate.getTimezoneOffset() * 60000;
+        const adjustedDate = new Date(newDate.valueOf() + timeDiff);
+        const longMonth = adjustedDate.toLocaleString('default', { month: 'long' });
+        return "Born " + longMonth + " " + adjustedDate.getUTCDate() + ", " + adjustedDate.getFullYear();
     };
     const formatJoined = () => {
         const joinDate = new Date(profile.dateJoined);
