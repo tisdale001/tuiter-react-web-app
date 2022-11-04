@@ -34,10 +34,10 @@ function Tuiter() {
                      style={{"position": "relative"}}>
                     <Routes>
                         <Route path="/" element={<Navigate to="home"/>}/>
-                        <Route path="home" element={<HomeComponent/>}/>
-                        <Route path="explore" element={<ExploreComponent/>}/>
-                        <Route path="profile" element={<ProfileComponent/>}/>
-                        <Route path="edit-profile" element={<EditProfile/>}/>
+                        <Route path="/home" element={<HomeComponent/>}/>
+                        <Route path="/explore" element={<ExploreComponent/>}/>
+                        <Route path="/profile" element={<ProfileComponent/>}/>
+                        <Route path="/edit-profile" element={<EditProfile/>}/>
                     </Routes>
                 </div>
                 <div className="d-none d-lg-none d-xl-block col-xl-4">
