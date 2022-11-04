@@ -23,7 +23,7 @@ const NavigationSidebar = (active) => {
      <a class="list-group-item list-group-item-action" href="#">
         <i class="fa fa-list"></i>
         <span class="d-none d-xl-inline-block">Lists</span></a>
-     <a class="list-group-item list-group-item-action" href="../profile.html">
+     <a class="list-group-item list-group-item-action" href="../profile2.html">
         <i class="fa fa-user"></i>
         <span class="d-none d-xl-inline-block">Profile</span></a>
      <a class="list-group-item list-group-item-action" href="#">
@@ -31,7 +31,7 @@ const NavigationSidebar = (active) => {
         <span class="d-none d-xl-inline-block">More</span></a>
    </div>
    <div class="d-grid mt-2">
-     <a href="../tuit.html"
+     <a href="../tuit2.html"
         class="btn btn-primary btn-block rounded-pill">
         Tweet</a>
    </div>
