@@ -1,6 +1,6 @@
 [
   {
-    "_id": 234,
+    "_id": "234",
     "topic": "Space",
     "userName": "SpaceX",
     "time": "2h",
@@ -14,7 +14,7 @@
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
   {
-    "_id": 123,
+    "_id": "123",
     "topic": "Tesla",
     "userName": "Tesla",
     "time": "2d",
@@ -28,7 +28,7 @@
     "tuit": "Tesla Inc. has lowered prices for vehicles sold in China, days after Chief Executive Elon Musk said most materials costs are falling and amid growing competition from local rivals."
   },
   {
-    "_id": 456,
+    "_id": "456",
     "topic": "NASA",
     "userName": "NASA",
     "time": "3h",
