@@ -11,7 +11,7 @@ const TuitItem = ({tuit}) => {
     return(
         <>
             <li className="list-group-item position-relative">
-                <img src={`/images2/${tuit.image}`} className="wd-avatar-format position-absolute wd-post-image-format rounded-circle"/>
+                <img src={`${tuit.image}`} className="wd-avatar-format position-absolute wd-post-image-format rounded-circle"/>
                 <div className="wd-post-body-margin position-relative">
                     <div className="end-0 position-absolute">
                         <i className="bi bi-x-lg"
