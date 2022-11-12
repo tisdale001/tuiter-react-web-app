@@ -8,14 +8,19 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
-            tuit: whatsHappening
+            tuit: whatsHappening,
+            image: "https://user-images.githubusercontent.com/53150782/201474203-a00f964d-2046-4092-9528-be651a74bf59.png",
+            handle: "@NASA",
+            userName: "NASA",
+            time: "2h"
         }
         dispatch(createTuitThunk(newTuit));
     }
     return (
         <div className="row">
             <div className="col-auto">
-                <img src="/images2/nasa.png" width={60} className="rounded-circle"/>
+                <img src={"https://user-images.githubusercontent.com/53150782/201474203-a00f964d-2046-4092-9528-be651a74bf59.png"}
+                     width={60} className="rounded-circle"/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
